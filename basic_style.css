@@ -1,0 +1,57 @@
+.container {
+
+    background: skyblue;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+    ;
+}
+
+
+
+.container > div{
+    width: 70px;
+    height: 70px;
+    background: white;
+    border:grey solid 0.3px;
+
+
+    /*Flex property*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1 {
+    order: 3;
+    background: red;
+    color: black;
+}
+
+.item-2 {
+    order: 2;
+    background: red;
+    color: black;
+}
+.item-3 {
+    order: 1;
+    background: red;
+    color: black;
+}
+.item-4 {
+    order: 0;
+    background: red;
+    color: black;
+}
+
+.item-5 {
+    order: -1;
+    background: red;
+    color: black;
+}
